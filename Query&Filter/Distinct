@@ -1,0 +1,6 @@
+SELECT DISTINCT FROM - Retrieves data of given columns of the given table, omitting any repetitions in rows
+
+red red       red red
+red null  ->  red null
+blue blue     blue blue
+red red
