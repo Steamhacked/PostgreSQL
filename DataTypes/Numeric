@@ -12,3 +12,5 @@ precision - limits digits allowed
 scale - limits digits after decimal point allowed
 
 Values excceeding number of digits after decimal point are rounded according to the scale
+
+In PostgreSQL DECIMAL and NUMERIC are equivalent
