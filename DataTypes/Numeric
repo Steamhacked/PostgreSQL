@@ -1,0 +1,14 @@
+NUMERIC
+
+For storing numerical values, when exactness and precision are crucial
+
+NUMERIC(precision, scale)
+
+NUMERIC(precision)
+
+NUMERIC 
+
+precision - limits digits allowed
+scale - limits digits after decimal point allowed
+
+Values excceeding number of digits after decimal point are rounded according to the scale
