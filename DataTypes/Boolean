@@ -1,1 +1,17 @@
+BOOL
 
+True//False//Null:
+
+true - false
+'t' - 'f'
+'true' - 'false'
+'y' - 'n'
+'yes' - 'no'
+1 - 0
+
+
+E.G.:
+
+SELECT * FROM book_availability WHERE available (/NOT available) = 'yes'/'no';
+
+PostgreSQL provide several boolean-specific functions and aggregates, e.g.: bool_and(), bool_or()
