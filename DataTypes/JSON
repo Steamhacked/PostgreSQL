@@ -1,0 +1,5 @@
+Declaring JSON Variable:
+
+name json;
+
+JSON - stores key-value pairs of data
