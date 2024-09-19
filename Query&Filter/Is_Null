@@ -1,0 +1,3 @@
+IS NULL - checks if a value is NULL (empty or not applicable)
+
+SELECT col FROM table WHERE id IS NULL; -> Retrieve data, with no ids
