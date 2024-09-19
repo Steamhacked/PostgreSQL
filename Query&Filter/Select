@@ -1,1 +1,6 @@
+SELECT - allows to retrieve data from one/many table(s) in various way through a plethora of clauses.
+
+SELECT column_name(, column_name2) FROM table_name; (retrieve data of listed columns)
+SELECT * FROM table_name; (retrieve data of all columns)
+
 
