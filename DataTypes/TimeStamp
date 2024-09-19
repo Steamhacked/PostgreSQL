@@ -1,0 +1,23 @@
+TIMESTAMP / TIMESTAMPZ 
+
+TIMESTAMP - stores time and date
+TIMESTAMPZ - stores time and date, with timezone information
+
+
+CREATE TABLE timestamp_demo (
+               ts TIMESTAMP, 
+               tstz TIMESTAMPTZ
+);
+
+SET timezone = 'Asia/Calcutta';
+
+INSERT INTO timestamp_demo (ts, tstz)
+
+VALUES
+    ( '2020-06-22 19:10:25-07', '2020-06-22 19:10:25-07' );
+
+SELECT ts, tstz FROM timestamp_demo;
+
+Converting by timezones:
+
+SELECT timezone('Timezone', "Timestamp);
