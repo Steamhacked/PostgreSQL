@@ -1,0 +1,3 @@
+FETCH FIRST/NEXT n ROW/ROWS ONLY
+
+Analagous to Limit
