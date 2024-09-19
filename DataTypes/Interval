@@ -1,0 +1,12 @@
+interval [Data_fields] [(p)]
+
+Stores interval of time, 
+
+fields: specifies intervals of time to store - YEAR, MONTH, DAY, HOUR, MINUTE, SECOND
+p: defines fractional seconds precision
+
+Formatting:
+
+SELECT TO_CHAR(INTERVAL '15h 25m 12s', 'HH24:MI:SS');
+
+Automatically normalizes data, e.g.: 25h -> 1d 1h
