@@ -1,1 +1,5 @@
+SMALLINT
+
+Stores integer number of range [-32,768 32,767]
+
 
