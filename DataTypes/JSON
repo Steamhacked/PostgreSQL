@@ -3,3 +3,15 @@ Declaring JSON Variable:
 name json;
 
 JSON - stores key-value pairs of data
+
+JSON-specific operations:
+
+json_each() - expand JSON object into a set of key-value pairs
+json_array_elements() - expands JSON array into a set of JSON values
+-> - extracts JSON objects by key
+->> - extracts JSON objects by key and returns text
+
+e.g.:
+
+SELECT info ->> 'customer' AS customer_name
+FROM orders;
