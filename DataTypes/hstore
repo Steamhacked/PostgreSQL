@@ -1,1 +1,45 @@
+hstore - stores key-value pairs, with 1-to-1 mapping of keys and values
+
+Creating extension:
+
+CREATE EXTENSION hstore;
+
+Declaring:
+
+name hstore;
+
+CREATE TABLE books (
+    id serial PRIMARY KEY,
+    title VARCHAR(255),
+    attr hstore
+);
+
+INSERT INTO books (title, attr)
+VALUES
+    (
+        'Winds Of Winter',
+        '"paperback" => "2403",
+       "publisher" => "Bantam Spectra/US & Voyager Books/UK",
+       "language"  => "English",
+       "ISBN-13"   => "978-1449370000",
+         "weight"    => "13.2 ounces"'
+    ),
+       (
+        'A Dance with Dragons',
+        '"paperback" => "2553",
+       "publisher" => "Bantam Spectra/US & Voyager Books/UK",
+       "language"  => "English",
+       "ISBN-13"   => "978-1449370001",
+         "weight"    => "14.2 ounces"'
+    ),
+       (
+        'A Dream of Spring',
+        '"paperback" => "2683",
+       "publisher" => "Bantam Spectra/US & Voyager Books/UK",
+       "language"  => "English",
+       "ISBN-13"   => "978-1449370002",
+         "weight"    => "15.7 ounces"'
+    );
+
+hstore supports -> operator, which allows to extract value associated with a specific key
 
