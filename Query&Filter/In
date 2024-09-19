@@ -1,0 +1,8 @@
+In checks if content contains given value, e.g.:
+
+SELECT col FROM table WHERE id IN (1,2,3); - Retrieves data only with ids of 1, 2 and 3
+
+Works in a subquery as well:
+
+SELECT col FROM table WHERE id IN ( SELECT ids FROM table2 WHERE CAST(return_date AS DATE) = '2003-01-02'; - retrieves users with date = '2003-01-02'
+
