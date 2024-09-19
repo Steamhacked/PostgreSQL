@@ -1,0 +1,6 @@
+DATE
+
+Stores "yyyy-mm-dd" format date
+
+AGE(birth-date) - calculates Age as of current date, according to the given birth date
+
