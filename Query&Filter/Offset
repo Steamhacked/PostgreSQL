@@ -1,0 +1,3 @@
+SELECT col FROM table ORDER BY weight LIMIT 5 OFFSET 5
+
+OFFSET - skips number of columns before selecting, returns 6th to 10th datapoints greatest in weight
