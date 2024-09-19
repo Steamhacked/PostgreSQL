@@ -1,1 +1,3 @@
+LIMIT - limits the number of rows retrieved from SELECT
 
+SELECT col FROM table ORDER BY price DESC LIMIT 10 -> Retrieves 10 most expensive items
