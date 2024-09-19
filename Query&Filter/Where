@@ -1,0 +1,14 @@
+WHERE - filters data retrieved by condition given
+
+SELECT * FROM table WHERE condition - retrieves data from table that follows the condition given
+
+examples of a condition:
+
+id > 0
+name = "Hansen"
+natural >=0
+
+<> or =! -> not equal
+AND
+OR
+etc.
