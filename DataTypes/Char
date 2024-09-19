@@ -1,0 +1,7 @@
+"CHAR(n)"
+
+n - length of string, if no value provdided n is set to be 1
+
+exceeding given length results in the error, unless exceeding characters are spaces - which will be truncated to fit the length
+
+String comparison for Chars includes trailing spaces
