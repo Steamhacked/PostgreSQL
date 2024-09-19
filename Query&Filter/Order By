@@ -1,0 +1,3 @@
+SELECT col_1, col_2 FROM table ORDER BY col_1[ASC/DESC], col_2[ASC/DESC]; (alphanumerically)
+
+LENGTH(col_1) to order according to length
