@@ -1,0 +1,6 @@
+VARCHAR(n)
+
+n - length of string, if not provided, n is set to be unlimited
+
+When declaring without n - behaves as TEXT
+
