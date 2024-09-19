@@ -1,0 +1,6 @@
+NOT LIKE - matching patterns to exclude
+
+e.g.:
+
+SELECT col FROM table WHERE col NOT LIKE 'K%'; - retrieves col data from table, with cols not starting from 'K'
+
