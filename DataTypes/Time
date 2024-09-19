@@ -1,0 +1,14 @@
+TIME(precision)
+
+stores time:
+
+without precision:
+'HH:MM'
+'HH:MM:SS'
+'HHMMSS'
+
+with precision:
+'MM:SS.pppppp"
+'HH:MM:SS.pppppp'
+'HHMMSS.pppppp'
+
