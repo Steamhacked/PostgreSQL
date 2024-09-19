@@ -1,0 +1,13 @@
+LIKE - pattern matching clause, case-sensitive (ILIKE - insensitive)
+
+string LIKE pattern
+
+% - matching any sequence of characters
+_ - matching a single character
+
+e.g.:
+
+SELECT col FROM table WHERE col LIKE 'K%' - retrieves data from col that has capital K at the beginning
+
+SELECT col FROM table WHERE col LIKE '_her%' - retrieves data from col that has "her" after exactly 1 character
+
