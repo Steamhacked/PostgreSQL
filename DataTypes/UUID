@@ -1,1 +1,14 @@
+UUID 
 
+Unique Universal Identifier - 128 bit value, defined by RC4211, uses algorithm to ensure each of such identifier is unique
+
+Creating UUID Extension:
+
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
+SELECT uuid_generate_v1/4();
+
+v1 - generates based on computer's MAC address, current timestamp and a random value
+v4 - generates entirely based on random numbers
+
+format "n-n-n-n-n" - where n is hex
