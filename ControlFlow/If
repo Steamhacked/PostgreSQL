@@ -1,1 +1,5 @@
+IF - executes operation if given condition is true
 
+IF condition THEN 
+  operation;
+END IF;
