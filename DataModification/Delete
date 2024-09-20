@@ -1,0 +1,4 @@
+DELETE - removes rows of the table, that match given condition
+
+DELETE FROM table WHERE condition;
+DELETE FROM debtors WHERE debt = 0;
