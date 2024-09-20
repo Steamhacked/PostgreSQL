@@ -1,0 +1,9 @@
+UPSERT - is a combination of UPDATE and INSERT, which inserts a new row into table, or updates an existing one. Achieved by slightly different syntax
+
+INSERT INTO table(cols) VALUES(vals) ON CONFLICT target action;
+
+target action for updating: 
+
+DO UPDATE SET col1 = EXCLUDED.col1, col2 = EXCLUDED.col2;
+
+DO NOTHING
