@@ -1,0 +1,7 @@
+DROP TABLE - permanently removes one or more tables from the database, non-reversible
+
+DROP TABLE [IF EXISTS] table [CASCADE/RESTRICT];
+
+Cascade - automatically removes any dependent objects 
+Restrict - prevents table from being dropped if there are any dependencies (default) 
+
