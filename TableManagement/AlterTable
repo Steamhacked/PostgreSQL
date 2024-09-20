@@ -9,3 +9,4 @@ ALTER TABLE table ALTER COLUMN col DROP NOT NULL;
 ALTER TABLE table ADD CHECK expression;
 ALTER TABLE table ADD CONSTRAINT condition;
 ALTER TABLE table RENAME TO new_table;
+ALTER TABLE table ALTER COLUMN col [SET DATA] TYPE new_datatype;
