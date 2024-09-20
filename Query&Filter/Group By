@@ -1,0 +1,9 @@
+GROUP BY - aggregating tool, used in combination with various functions
+
+SELECT
+    customer_id,
+    SUM (amount) 
+FROM
+    payment
+GROUP BY
+    customer_id;   ->   retrieves data of aggregate amount for each unique customer_id
