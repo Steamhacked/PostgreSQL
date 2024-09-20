@@ -1,0 +1,4 @@
+CAST - typecasting operator, which allows to convert value of one data type to another
+
+CAST( expression AS type );
+
