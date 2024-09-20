@@ -1,0 +1,11 @@
+ALTER TABLE - allows to allows to modify database with minimal disruption of database operations
+
+ALTER TABLE table action;
+
+ALTER TABLE table ADD COLUMN new_col TYPE;
+ALTER TABLE table DROP COLUMN col_to_drop;
+ALTER TABLE table RENAME COLUMN col TO new_col;
+ALTER TABLE table ALTER COLUMN col DROP NOT NULL;
+ALTER TABLE table ADD CHECK expression;
+ALTER TABLE table ADD CONSTRAINT condition;
+
