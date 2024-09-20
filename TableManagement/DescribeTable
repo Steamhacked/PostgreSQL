@@ -1,0 +1,18 @@
+There are several ways to describe Table in PostgreSQL, in order to view table's column's details
+
+psql:
+
+psql is PostgreSQL's terminal/shell, that allows for Table description
+
+Commands:
+
+\d - lists details of a table/column
+\d+ - lists extensive details of a table/column
+\c - to connect to a different database, or to reconnect
+
+information_schema:
+
+information_schema.columns - is a catalog containing information of all the columns of all the tables
+
+SELECT table_name, col_name, data_type FROM information_schema.columns WHERE table_name = 'table_name'
+
