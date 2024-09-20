@@ -1,0 +1,17 @@
+Tables can be compared using EXCEPT, UNION and OUTER JOIN
+
+EXCEPT - returns rows of the first table, that are not in the second table
+
+SELECT cols FROM table_1 EXCEPT SELECT cols FROM table_2
+
+UNION - returns rows of both tables combined, removing any repetitions
+
+SELECT cols FROM table_1 UNION SELECT cols FROM table_2
+
+FULL OUTER JOIN - returns rows that match given condition in both tables
+
+SELECT cols FROM table_1 FULL OUTER JOIN bar USING (cols) WHERE condition
+
+
+
+
