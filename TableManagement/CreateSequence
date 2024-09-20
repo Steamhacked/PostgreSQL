@@ -1,0 +1,21 @@
+SEQUENCE - object (sequential values)
+
+CREATE SEQUENCE [ IF NOT EXISTS ] sequence_name
+    [ AS { SMALLINT | INT | BIGINT } ]
+    [ INCREMENT [ BY ] increment ]
+    [ MINVALUE minvalue | NO MINVALUE ] 
+    [ MAXVALUE maxvalue | NO MAXVALUE ]
+    [ START [ WITH ] start ] 
+    [ CACHE cache ] 
+    [ [ NO ] CYCLE ]
+    [ OWNED BY { table_name.column_name | NONE } ]
+
+CYCLE - allows sequence to restart when limit is reached
+
+
+CREATE SEQUENCE three
+INCREMENT -1
+MINVALUE 1 
+MAXVALUE 3
+START 3
+CYCLE;
