@@ -1,0 +1,8 @@
+loop - executes operation continuously, until return or exit is reached
+
+loop
+  statements/body;
+end loop;
+
+terminating condition and incremented variable should be included within loop structure, in order to make the loop finite
+
