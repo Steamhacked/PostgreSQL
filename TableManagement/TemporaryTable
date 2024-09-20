@@ -3,3 +3,5 @@ Temporary Tables only exist as long as session or transaction is live, the momen
 CREATE TEMPORARY/TEMP TABLE table(...);
 
 If a regular table and a temporary table, both created with a common name. When retrieving data by the shared name using select, temporary table has higher priority
+
+Temporary tables are dropped regularly and are given precedence over regular tables
