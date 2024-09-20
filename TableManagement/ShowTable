@@ -1,0 +1,12 @@
+There are several ways of displaying list of all tables within a database
+
+psql:
+
+\dt - displays list of all tables within the current database
+
+pg_catalog schema:
+
+pg_catalog.pg_tables - is a catalogue containing information of all the tables (includes all tables, but system tables), allows for more complex filtering
+
+SELECT * FROM pg_catalog.pg_tables WHERE schemaname != 'pg_catalog' AND schemaname != 'information_schema';
+
