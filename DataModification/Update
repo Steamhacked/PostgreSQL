@@ -1,0 +1,6 @@
+UPDATE - modifies existing data in a table
+
+UPDATE table SET col1 = val1, col2 = val2,... WHERE condition;
+
+UPDATE citizens SET suspected_in_terrorism = true WHERE last_name = 'Assange';
+
