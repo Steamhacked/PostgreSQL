@@ -1,0 +1,4 @@
+CASE - allows to perform operations based on whether given conditions are or are not met
+
+CASE WHEN condition_1 THEN result_1 WHEN condition_2 THEN result_2... [ELSE result_n] END
+
