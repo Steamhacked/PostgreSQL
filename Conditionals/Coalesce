@@ -1,0 +1,9 @@
+COALESCE - returns 1st non-NULL argument among its parameters
+
+COALESCE (arg1, arg2, ...);
+
+SELECT
+    product,
+    (price - COALESCE(discount, 0)) AS net_price
+FROM
+    items;
