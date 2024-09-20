@@ -1,0 +1,24 @@
+INTO - allows to create table, based on the contents of the given data retrieved from SELECT
+
+SELECT
+    column_list 
+INTO [ TEMPORARY | TEMP | UNLOGGED ] [ TABLE ] new_table_name
+FROM
+    table_name
+WHERE
+    condition;
+
+TEMPORARY/TEMP/UNLOGGED - optional Table type
+
+SELECT
+    film_id,
+    title,
+    rental_rate
+INTO TABLE film_r
+FROM
+    film
+WHERE
+    rating = 'R'
+AND rental_duration = 5
+ORDER BY
+    title;
