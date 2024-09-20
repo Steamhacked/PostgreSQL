@@ -1,0 +1,15 @@
+Copying table with the same structure and data:
+
+CREATE TABLE new_table AS TABLE old_table;
+
+
+Copying table with the same structure and no data:
+
+CREATE TABLE new_table AS TABLE old_table WITH NO DATA;
+
+
+Copying table with the same structure and partial data:
+
+CREATE TABLE new_table AS TABLE old_table WHERE condition
+
+
