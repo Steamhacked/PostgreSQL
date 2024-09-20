@@ -1,0 +1,13 @@
+NULLIF - returns NULL if arg1 equals arg2, otherwise returns arg_1
+
+NULLIF(arg1, arg2);
+
+SELECT
+    id,
+    title,
+    COALESCE (
+        NULLIF (excerpt, ''),
+        LEFT (body, 40)
+    )
+FROM
+    posts;
