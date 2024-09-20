@@ -1,0 +1,18 @@
+CASE - executes operations if conditions are met
+
+CASE condition
+  WHEN condition1 [condition2,...] THEN
+    operation
+  [ELSE
+    operation2]
+
+CASE rate
+    WHEN 0.99 THEN
+            price_segment = 'Mass';
+    WHEN 2.99 THEN
+            price_segment = 'Mainstream';
+    WHEN 4.99 THEN
+            price_segment = 'High End';
+    ELSE
+        price_segment = 'Unspecified';
+    END CASE;
