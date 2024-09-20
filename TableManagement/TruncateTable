@@ -1,0 +1,3 @@
+TRUNCATE TABLE - removes all data from tables, more efficient than DELETE for big tables
+
+TRUNCATE TABLE table
