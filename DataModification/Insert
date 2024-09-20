@@ -1,4 +1,5 @@
 INSERT - adds new rows to the tables
 INSERT INTO table (col1, col2,...) VALUES (val1, val2,...), (val1, val2...)...;
 
+Columns are not required to be specified, if no columns specified, then the values are inserted according to the order provided
 
