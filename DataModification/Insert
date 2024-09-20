@@ -1,0 +1,4 @@
+INSERT - adds new rows to the tables
+INSERT INTO table (col1, col2,...) VALUES (val1, val2,...), (val1, val2...)...;
+
+
