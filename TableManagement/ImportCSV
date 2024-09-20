@@ -1,0 +1,11 @@
+Steps to import CSV file into table:
+
+1)  Create table with characteristics corresponding to the CSV file:
+CREATE TABLE persons ( id serial NOT NULL, first_name character varying(50), last_name character varying(50), dob DATE, email character varying(255), CONSTRAINT persons_pkey PRIMARY KEY (id));
+
+2)  CSV file preparation:
+Have CSV file of proper structure prepared
+
+3)  Importing CSV into PostgreSQL:
+COPY persons(first_name, last_name, dob, email) FROM 'C:\CSV\FILE\LOCATION', 'CSV HEADER';
+
