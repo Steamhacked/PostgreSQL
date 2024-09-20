@@ -1,0 +1,5 @@
+for loop - executes code for a set number of iterations, or until terminate/exit is reached
+
+for loop_count in [reverse] from...to [by step] loop
+  code;
+end loop [label];
