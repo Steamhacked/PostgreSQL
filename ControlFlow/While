@@ -1,0 +1,5 @@
+while - is a conditional loop, that keeps executing code until condition is no longer holds true or until terminate/exit is reached
+
+while condition loop
+  code;
+end loop;
