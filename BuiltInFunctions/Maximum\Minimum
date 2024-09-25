@@ -1,0 +1,19 @@
+MAX - returns maximum within given set
+
+MAX(expression) - expression is column or given expression
+
+MIN - returns minimum within given set
+
+MIN(expression) - expression is column or given expression
+
+
+SELECT MAX/MIN(amount)
+FROM payment;
+
+SELECT
+    customer_id,
+    MAX/MIN(amount)
+FROM
+    payment
+GROUP BY
+    customer_id;
