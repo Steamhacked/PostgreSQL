@@ -1,0 +1,6 @@
+COUNT - counts rows
+
+COUNT(*) - all rows
+COUNT(column) - all rows except null
+COUNT(DISTINCT column) - all rows except null and duplicate
+
