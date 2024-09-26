@@ -1,0 +1,8 @@
+COMMIT - ends transaction and commits changes, otherwise the changes will remain unsaved
+
+COMMIT;
+
+COMMIT TRANSACTION;
+
+END TRANSACTION;
+
