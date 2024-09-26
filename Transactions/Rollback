@@ -1,0 +1,7 @@
+ROLLBACK - reverts changes to the original state, before transaction
+
+ROLLBACK;
+
+ROLLBACK TRANSACTION;
+
+ROLLBACK WORK;
