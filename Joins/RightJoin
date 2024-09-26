@@ -1,0 +1,4 @@
+RIGHT JOIN - direct opposite of the LEFT JOIN, returns all fields of right table with matching fields of left table
+
+SELECT FROM RIGHT JOIN table2 ON table1.col = table2.col
+
