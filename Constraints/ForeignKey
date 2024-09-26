@@ -1,0 +1,3 @@
+FOREIGN KEY - column(s) used to uniquely identify a row in a different table
+
+FOREIGN KEY (column) REFERENCES parent_table (table_name)
