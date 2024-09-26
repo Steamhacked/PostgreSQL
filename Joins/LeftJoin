@@ -1,0 +1,6 @@
+LEFT JOIN - returnrs all rows from left side and matching rows in the right side
+
+SELECT ... FROM table1 LEFT JOIN table2 ON table1.matching_col = table2.matching_col
+
+If for a value in left side, there is no corresponding value in right side - null is used
+
