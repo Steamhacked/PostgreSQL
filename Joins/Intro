@@ -1,0 +1,5 @@
+JOIN - combines data/rows from one or more tables based on a common field between them. Common fields are usually primary key of the first table and foreign keys of another
+
+Basic JOIN types: Inner, Left, Right, Full Outer
+Special JOIN types: Natural, Cross, Self
+
