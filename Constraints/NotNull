@@ -1,0 +1,3 @@
+NOT NULL - ensures that the column is not null
+
+variable_name datatype NOT NULL 
