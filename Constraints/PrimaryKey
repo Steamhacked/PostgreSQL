@@ -1,1 +1,3 @@
+PRIMARY KEY - combination of NOT NULL and UNIQUE, each table can have only one primary key column
 
+col datatype PRIMARY KEY 
