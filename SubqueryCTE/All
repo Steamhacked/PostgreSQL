@@ -1,0 +1,3 @@
+ALL - allows for comparison of a single value to multiple elements
+
+expression operator ALL(subquery)
