@@ -1,0 +1,14 @@
+Transaction - sequence of SQL operations executed as a single unit of work, follows ACID
+
+A - Atomicity - All parts of the work unit have to be completed successfully, if any fail - none of them will succeed and the entire transaction will be rolled back
+C - Consistency - Transaction can only bring the database from one valid state to another, ensuring that all defined rules are maintained
+I - Isolation - Transactions are executed in isolation from one another, preventing transactions from interfering with one another
+D - Durability - Once transaction is committed and completed, the effects and changes will be permanent, even in case of a system failure
+
+Main commands in transaction:
+
+BEGIN - Starts transaction block
+COMMIT - commits the current transaction block, making all changes permanent
+ROLLBACK - cancels all changes made by current transaction
+SAVEPOINT - creates a point in transaction, to which you can rollback
+
