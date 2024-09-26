@@ -1,0 +1,4 @@
+CHECK - checks given set of data for given condition
+
+name datatype CHECK(condition);
+
