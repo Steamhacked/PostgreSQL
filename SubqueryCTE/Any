@@ -1,0 +1,6 @@
+ANY - operator that allows for comparison of one to multiple elements, returns true if any of elements within set returned from subquery corresponds to comparison condition with given expression
+
+expression operator ANY(subquery)
+
+subquery must return single column
+operator preceding ANY should be a comparison operator
