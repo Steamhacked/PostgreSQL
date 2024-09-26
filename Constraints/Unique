@@ -1,0 +1,6 @@
+UNIQUE - ensures values in given set of data are unique
+
+UNIQUE(column)
+
+var_name datatype UNIQUE
+
