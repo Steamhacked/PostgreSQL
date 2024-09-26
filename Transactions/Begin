@@ -1,0 +1,9 @@
+BEGIN - initiates a transaction 
+
+BEGIN
+statements
+
+BEGIN TRANSACTION;
+statements
+
+Transaction should be ended with either COMMIT or ROLLBACK
