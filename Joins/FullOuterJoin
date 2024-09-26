@@ -1,0 +1,3 @@
+FULL OUTER JOIN - combines both left and right join, retrieving all rows from both tables including unmatched rows, filling null for columns that dont have match
+
+SELECT FROM table1 FULL (OUTER) JOIN table2 ON table1.matching_column = table2.matching_column;
