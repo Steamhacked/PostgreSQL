@@ -1,0 +1,9 @@
+SAVEPOINT - creates a point in transaction to which you can rollback
+
+SAVEPOINT savepoint_name;
+
+ROLLBACK TO savepoint_name;
+
+A savepoint can be removed using RELEASE
+
+RELEASE savepoint_name;
