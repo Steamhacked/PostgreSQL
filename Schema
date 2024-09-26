@@ -1,0 +1,16 @@
+Schema - is a container that groups database objects: tables, views, indexes, functions, etc. 
+
+Schemas can only be access by the users they are assigned to
+
+CREATE SCHEMA schema_name
+CREATE SCHEMA [IF NOT EXISTS] AUTHORIZATION user_name; - for specific user_name owner
+
+GRANT USAGE ON SCHEMA schema_name TO user_name - enables to access objects in schema
+
+GRANT CREATE ON SCHEMA schema_name TO user_name - enables to create objects in schema
+
+ALTER SCHEMA schema_name RENAME TO new_schema_name
+ALTER SCHEMA schema_name OWNER TO new_owner
+
+DROP SCHEMA schema_name CASCADE - to drop all objects within schema
+DROP SCHEMA schema_name RESTRICT - to ensure schema is dropped only when empty
