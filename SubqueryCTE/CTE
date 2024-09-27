@@ -1,0 +1,8 @@
+CTE - Common Table Expression that helps organization of queries, it creates temporary result set from a query, it can be defined within
+a single SELECT, INSERT, UPDATE, or DELETE query
+
+WITH cte_name(cols) AS (
+  CTE_query_definition
+)
+statement;
+
