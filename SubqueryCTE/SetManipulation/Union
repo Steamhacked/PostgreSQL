@@ -1,0 +1,7 @@
+UNION - combines sets of data from multiple queries, with duplicate rows removed
+
+SELECT cols FROM table UNION SELECT cols FROM table1
+
+Both queries should return the same number of columns
+Both queries should have compatible datatypes
+
