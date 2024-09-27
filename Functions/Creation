@@ -1,0 +1,17 @@
+CREATE [/REPLACE] FUNCTION function_name(param_list)
+RETURNS return_type
+LANGUAGE plpgsql
+AS
+$$
+DECLARE
+--variable declaration
+BEGIN
+--logic
+END;
+$$;
+
+A function can have zero parameters
+plpgsql - procedural language used for function definition, due to its rich feature set
+
+\df - returns all user-defined functions
+
