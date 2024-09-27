@@ -1,0 +1,9 @@
+A function is deleted using drop
+
+DROP FUNCTION [IF EXISTS] function_name(argument_list)
+[CASCADE|RESTRICT];
+
+CASCADE - removes the function and dependent objects
+RESTRICT - removes the function only if all dependencies are resolved
+
+DROP FUNCTION [IF EXISTS] function1, function2,...;
