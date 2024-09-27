@@ -1,1 +1,4 @@
 PostgreSQL allows creation of User-Defined Function, allowing for modularity and reusability of certain parts of the code
+
+PostgreSQL supports function overloading, meaning that multiple functions can have the same name, when parameters are different
+
