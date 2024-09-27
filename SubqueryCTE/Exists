@@ -1,0 +1,4 @@
+EXISTS - tests subquery for existence of rows
+
+EXISTS(subquery)
+
