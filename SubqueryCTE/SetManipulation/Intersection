@@ -1,0 +1,6 @@
+INTERSECT - combines multiple sets of data produced from queries, returning common data among datasets
+
+SELECT cols FROM table INTERSECT SELECT cols FROM table2
+
+The number and order of columns should be consistent
+Data types of the columns must be compatible
