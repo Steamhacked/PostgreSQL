@@ -1,0 +1,7 @@
+Parameters - variables/values passed to function
+
+Parameter Modes:
+
+IN - pass value to the function/procedure, parameters act as constants and cannot be assigned new values within the function, default mode and is used if mode not specified, returns single value 
+OUT - return value from function/procedure, parameters act as uninitialized variables and are to be assigned values during function execution, used when returning multiple values
+INOUT - combination of both, parameters are initialized and can be modified as the function executes
