@@ -1,0 +1,4 @@
+EXCEPT - returns distinct data from the 1st query that is not present in the 2nd query
+
+SELECT cols FROM table WHERE condition EXCEPT SELECT cols FROM table2 WHERE condition
+
