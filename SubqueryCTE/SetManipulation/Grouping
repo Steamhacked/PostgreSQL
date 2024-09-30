@@ -1,0 +1,15 @@
+GROUPING SETS - sub-clause of group-by produces equivalent of UNION ALL of multiple GROUP BY clauses
+
+SELECT
+    column1,
+    column2,
+    aggregate_function(column3)
+FROM
+    table_name
+GROUP BY
+    GROUPING SETS (
+        (column1, column2),
+        (column1),
+        (column2),
+        ()
+);
