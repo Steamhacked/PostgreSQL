@@ -1,0 +1,4 @@
+Constant - constant unit of data that cannot be altered after initialization
+
+constant_name CONSTANT data_type := expression;
+
