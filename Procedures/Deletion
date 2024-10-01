@@ -1,0 +1,4 @@
+DROP [IF EXISTS] PROCEDURE procedure_name(argument_list)
+[CASCADE/RESTRICT];
+
+An argument_list should be provided since procedures can be overloaded
