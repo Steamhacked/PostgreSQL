@@ -1,0 +1,12 @@
+Both Procedure and Function are - a reusable block of code, however, there are differences between one-another.
+
+Transaction:
+Has no return value
+CALL
+Allows for COMMIT and ROLLBACK
+
+
+Function:
+Has a return value
+SELECT
+Does not allow COMMIT or ROLLBACK
