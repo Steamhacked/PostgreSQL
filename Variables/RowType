@@ -1,0 +1,6 @@
+Row Type Variables - allow storing an entire row from table/view in a variable
+
+row_variable table_name/view_name %ROWTYPE;
+
+Field access: row_variable.field_name
+
