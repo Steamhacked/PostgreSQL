@@ -1,0 +1,4 @@
+SELECT INTO - to select data from database and assign to a variable
+
+SELECT select_list INTO variable_name FROM table_expression
+
