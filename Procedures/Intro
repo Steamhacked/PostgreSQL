@@ -1,0 +1,10 @@
+Stored Procedures - allows for execution of block of code utilizing procedural programming language, which further extends functionality
+
+DO - allows for procedure execution
+
+The languages are categorized in 2 groups:
+
+1) Safe - PL/pgsql & SQL
+2) Sandboxed - allowed only for superusers due to security, e.g.: C
+
+Languages Supported by Default: C, PL/pgsql, SQL
