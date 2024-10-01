@@ -1,0 +1,20 @@
+CREATE PROCEDURE - creates stored procedure, which are beneficial for encapsulation business logic, especially when transaction execution is required.
+
+Unlike user-defined functions, procedures are capable of transaction execution
+
+CREATE [or REPLACE] PROCEDURE procedure_name(parameter_list)
+LANGUAGE plpgsql
+AS $$
+DECLARE
+  -- variable declaration
+BEGIN 
+  --stored procedure body
+END; $$
+
+CALL stored_procedure_name(argument_list)
+
+While stored procedure does not return anything, a return with no value can be used to stop the procedure
+
+return;
+
+
