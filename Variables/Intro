@@ -1,0 +1,4 @@
+Variables - provide a way to store and later modify values of various datatypes
+
+variable_name data_type [:= value/expression];
+
