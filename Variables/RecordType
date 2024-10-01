@@ -1,0 +1,4 @@
+Record Type - is similar to row type, but unlike row type - it has a flexible sturcture, not necessarily bound to table
+
+variable_name record;
+
